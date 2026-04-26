@@ -185,9 +185,9 @@ pipeline {
             steps {
                 script{
                    withDockerRegistry(credentialsId: 'docker'){
-                       sh '/usr/bin/docker-scout quickview sonakshimalik/zomato:latest'
-                       sh '/usr/bin/docker-scout cves sonakshimalik/zomato:latest'
-                       sh '/usr/bin/docker-scout recommendations sonakshimalik/zomato:latest'
+                       sh '/usr/local/bin/docker-scout quickview sonakshimalik/zomato:latest'
+                       sh '/usr/local/bin/docker-scout cves sonakshimalik/zomato:latest'
+                       sh '/usr/local/bin/docker-scout recommendations sonakshimalik/zomato:latest'
                    }
                 }
             }
