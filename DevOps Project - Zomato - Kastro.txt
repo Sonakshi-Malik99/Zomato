@@ -484,7 +484,7 @@ To resolve this issue, you can either write the entire command on a single line 
 
 Approach 1: Single Line Command (In this video i will prefer this)
 Simply run the entire command in one line without using backslashes for line continuation:
-eksctl create cluster --name=kastrocluster --region=ap-northeast-1 --zones=ap-northeast-1a,ap-northeast-1c --without-nodegroup
+eksctl create cluster --name=sonakshicluster --region=ap-northeast-1 --zones=ap-northeast-1a,ap-northeast-1c --without-nodegroup
 
 
 Approach 2: Use PowerShell’s Backtick for Line Continuation
